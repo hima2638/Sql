@@ -1,0 +1,8 @@
+3.renaming column name from ph no to mobile no 
+ALTER TABLE emp
+RENAME COLUMN ph_no TO mobile_no;
+ 
+7.print max salary for particular dept
+SELECT MAX(salary) AS max_salary
+FROM emp
+WHERE dept = 'department_name';
